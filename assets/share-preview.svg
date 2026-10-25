@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f5ef"/>
+  <rect x="850" width="350" height="630" fill="#d6fa72"/>
+  <g fill="none" stroke="#111a19" stroke-width="1" opacity=".16"><path d="M900 0v630m50-630v630m50-630v630m50-630v630m50-630v630m50-630v630M850 65h350M850 115h350M850 165h350M850 215h350M850 265h350M850 315h350M850 365h350M850 415h350M850 465h350M850 515h350M850 565h350"/></g>
+  <rect x="58" y="52" width="58" height="58" rx="7" fill="#111a19"/>
+  <text x="72" y="94" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#f5f5ef">N<tspan fill="#d6fa72">.</tspan></text>
+  <text x="138" y="77" fill="#111a19" font-family="Consolas,monospace" font-size="15" letter-spacing="2">PERSONAL PORTFOLIO</text>
+  <text x="138" y="101" fill="#58615d" font-family="Consolas,monospace" font-size="13" letter-spacing="1">COMPUTER VISION / APPLIED AI</text>
+  <text x="58" y="269" fill="#111a19" font-family="Arial,sans-serif" font-size="81" font-weight="700" letter-spacing="-5">Nguyen</text>
+  <rect x="56" y="306" width="634" height="83" fill="#d6fa72"/>
+  <text x="58" y="373" fill="#111a19" font-family="Arial,sans-serif" font-size="81" font-weight="700" letter-spacing="-5">Viet Phuong.</text>
+  <text x="61" y="440" fill="#58615d" font-family="Arial,sans-serif" font-size="25">Building AI that works beyond the lab.</text>
+  <path d="M60 506h700" stroke="#d4d9ce"/>
+  <text x="61" y="550" fill="#58615d" font-family="Consolas,monospace" font-size="14" letter-spacing="1">AI STUDENT / FPT UNIVERSITY, CAN THO</text>
+  <circle cx="1025" cy="298" r="101" fill="#111a19"/>
+  <g stroke="#d6fa72" stroke-width="9" fill="none"><path d="M1025 231v134m-67-67h134m-114-47 94 94m-94 0 94-94"/></g>
+  <text x="900" y="548" fill="#111a19" font-family="Consolas,monospace" font-size="14" letter-spacing="2">05 PROJECTS</text>
+</svg>
