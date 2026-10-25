@@ -166,8 +166,12 @@ h1,h2,h3,p{margin-top:0}
 .feature-role{font-size:10px;color:var(--feature-ink);display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px;line-height:1.6;}
 .feature-role strong{color:var(--ink);font:700 11px var(--body);letter-spacing:0}
 .project-feature .tags>span{background:var(--feature-soft);border-color:var(--feature-line);color:var(--ink)}
-.project-feature .project-links{border-color:var(--feature-line)}
+.project-feature .project-links{border-color:var(--feature-line);gap:12px;}
 .project-feature .project-links a{color:var(--feature-ink)}
+.project-links a.demo-link{gap:8px;padding:0 10px;border-radius:6px;background:var(--deep);color:var(--paper);}
+.project-links a.demo-link:is(:hover,:focus-visible){background:var(--dark-hover);color:var(--white);text-decoration:none;}
+#dialog-demo{margin-bottom:12px;}
+#dialog-demo[hidden]{display:none;}
 .feature-art{height:auto;background:var(--cover-bg);min-height:0;aspect-ratio:auto;}
 .feature-art img{position:absolute;inset:0;}
 .all-repos{display:flex;justify-content:space-between;align-items:center;margin-top:36px;gap:15px;font:10px var(--mono);letter-spacing:.05em;color:var(--muted)}

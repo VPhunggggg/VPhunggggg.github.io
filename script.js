@@ -1,5 +1,6 @@
 const projects = {
   thinkmed: {
+    demo:'https://www.youtube.com/watch?v=9Z_5Q1DSq1U',
     type:'MULTIMODAL EDGE AI · TEAM PROJECT', title:'ThinkMed',
     lead:'A multimodal AI kiosk for dermatology screening, contextual medical information, Vietnamese voice interaction, and patient queue management.',
     challenge:'Connect several AI and software components into a single kiosk experience while keeping the interaction understandable and medically cautious.',
@@ -81,6 +82,9 @@ $$('[data-open-project]').forEach(button => {
     $('#dialog-approach').textContent = data.approach;
     $('#dialog-tags').replaceChildren(...data.tags.map(t => { const s = document.createElement('span'); s.textContent=t; return s; }));
     $('#dialog-source').href = data.url;
+    $('#dialog-demo').hidden = !data.demo;
+    if(data.demo) $('#dialog-demo').href = data.demo;
+    else $('#dialog-demo').removeAttribute('href');
     if (typeof dialog.showModal === 'function') {
       dialog.showModal();
       dialog.scrollTop = 0;
