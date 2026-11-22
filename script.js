@@ -16,6 +16,14 @@ const projects = {
     tags:['LLM','Excel','Python','Validation','Candidate voting'],
     url:'https://github.com/VPhunggggg/sheetreason-excel-qa'
   },
+  fallmonitor: {
+    type:'COMPUTER VISION & VIDEO', title:'Fall Monitor',
+    lead:'A local fall detection prototype for uploaded clips, webcams and IP camera streams.',
+    challenge:'A single frame can confuse a fall with an everyday movement. Alerts need context so someone can review what happened.',
+    approach:'Run YOLO inference on an NVIDIA GPU, confirm detections over a time window, and present alerts with snapshots and annotated video. Flask serves the local dashboard and CSV exports.',
+    tags:['Python','YOLO','PyTorch','CUDA','OpenCV','Flask','RTSP'],
+    url:'https://github.com/VPhunggggg/fall-monitor'
+  },
   examguard: {
     type:'VISION & MONITORING', title:'ExamGuard',
     lead:'A system for detecting phones and potential phone-use in exam monitoring workflows.',

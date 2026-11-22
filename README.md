@@ -4,7 +4,7 @@ Personal portfolio of an Artificial Intelligence student at FPT University, Can 
 
 **Website:** https://vphunggggg.github.io/
 
-Five selected projects connect computer vision, language models and software: ThinkMed, SheetReason, ExamGuard, PigCounter and Chess Edition. The website includes responsive layouts, project filters, accessible detail dialogs and motion that respects reduced-motion preferences.
+Six selected projects connect computer vision, language models and software. They include ThinkMed, Fall Monitor, SheetReason, ExamGuard, PigCounter and Chess Edition. The website includes responsive layouts, project filters, accessible detail dialogs and motion that respects reduced-motion preferences.
 
 ## Development
 
